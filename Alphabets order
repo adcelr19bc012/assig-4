@@ -1,0 +1,26 @@
+ class alphabet
+{
+    public static void main(String[] args)
+    {
+        int alphabet = 65;
+
+        System.out.println(" Printing the alphabets");
+        for (int i = 0; i <= 5; i++)
+        {
+            for (int j = 0; j <= i; j++)
+            {
+                System.out.print((char) alphabet + " ");
+                alphabet++;
+            }
+            System.out.println();
+        }
+    }
+}
+
+Output:
+A 
+B C 
+D E F 
+G H I J 
+K L M N O 
+P Q R S T U
